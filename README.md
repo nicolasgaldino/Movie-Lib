@@ -1,15 +1,16 @@
 # Movie-Lib
 
 Projeto feito utilizando: <br>
-<a href="https://vitejs.dev/">Vite</a> <br>
-<a href="https://pt-br.reactjs.org/">React v18.0.0</a> <br>
-Consumo dos dados feitos através da API do site <a href="https://developers.themoviedb.org/3/getting-started/introduction">TMBD</a>
+<a href="https://vitejs.dev/" target="_blank">Vite</a> <br>
+<a href="https://pt-br.reactjs.org/" target="_blank">React v18.0.0</a> <br>
+Consumo dos dados feitos através da API do site <a href="https://developers.themoviedb.org/3/getting-started/introduction" target="_blank">TMBD</a> <br>
+Para que você consiga utilizar a API será necessário criar um cadastro, segue um link de um <a href="https://www.youtube.com/watch?v=awtbjLCpM0M&t=191s" target="_blank">tutorial</a>.
 
 # Dependências
 
-<a href="https://v5.reactrouter.com/web/guides/quick-start">React Router DOM</a> v6.3.0 <br>
-<a href="https://pt-br.reactjs.org/docs/react-dom.html">React DOM</a> v18.0.0 <br>
-<a href="https://react-icons.github.io/react-icons/">React Icons</a> v4.4.0 <br>
+<a href="https://v5.reactrouter.com/web/guides/quick-start" target="_blank">React Router DOM</a> v6.3.0 <br>
+<a href="https://pt-br.reactjs.org/docs/react-dom.html" target="_blank">React DOM</a> v18.0.0 <br>
+<a href="https://react-icons.github.io/react-icons/" target="_blank">React Icons</a> v4.4.0 <br>
 
 # Para executá-lo:
 
