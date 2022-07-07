@@ -1,4 +1,4 @@
-# Projeto em estapa de desenvolvimento
+# Projeto em etapa de desenvolvimento
 # Movie-Lib
 
 Projeto feito utilizando: <br>
@@ -19,7 +19,7 @@ Copiar o link do projeto, e usar o comando 'git clone'; <br>
 
 Ao abrir o projeto abra o terminal e execute 'npm i'; <br>
 
-Depois de concluir a instalação de todas as dependeências, crie um arquivo chamado '.env'; <br>
+Depois de concluir a instalação de todas as dependências, crie um arquivo chamado '.env'; <br>
 
 Neste aquivo insira as seguintes variáveis ambientes: <br>
 
