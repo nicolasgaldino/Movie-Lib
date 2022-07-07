@@ -1,10 +1,10 @@
 :root {
   --white: #ffffff;
   --black: #000000;
-  --cabana-dark-blue: #236ad6;
-  --cabana-light-blue : #2095f2;
-  --cabana-red: #d7415d;
-  --cabana-yellow : #ffd960;
+  --dark-blue: #236ad6;
+  --light-blue : #2095f2;
+  --red: #d7415d;
+  --yellow : #ffd960;
 }
 
 * {
@@ -22,10 +22,10 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--cabana-yellow);
+  color: var(--yellow);
   transition: .5s;
 }
 
 a:hover {
-  color: var(--cabana-dark-blue);
+  color: var(--dark-blue);
 }

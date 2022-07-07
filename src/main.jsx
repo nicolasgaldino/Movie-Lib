@@ -13,8 +13,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route element={<App />}>
           <Route path='/' element={<Home />} />
-          <Route path='search/:id' element={<Search />} />
-          <Route path='movies' element={<Movies />} />
+          <Route path='movies/:id' element={<Search />} />
+          <Route path='search' element={<Movies />} />
         </Route>
       </Routes>
     </BrowserRouter>
