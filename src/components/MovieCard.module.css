@@ -1,0 +1,40 @@
+.movieCard {
+  width: 30%;
+  color: white;
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #111;
+  padding: 1rem;
+  border-radius: 0.3125rem;
+}
+
+.movieCard img {
+  max-width: 100%;
+}
+
+.movieCard img,
+.movieCard h2,
+.movieCard p {
+  margin-bottom: 1rem;
+}
+
+.movieCard svg {
+  color: #f7d354;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  background-color: #f7d354;
+  border: 0.125rem solid white;
+  border-radius: 0.3125rem;
+  color: black;
+  padding: 1rem .5rem;
+  transition: .4s;
+}
+
+.details:hover {
+  color: white;
+}
