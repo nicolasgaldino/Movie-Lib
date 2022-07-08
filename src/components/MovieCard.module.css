@@ -31,8 +31,8 @@
   border: 0.125rem solid white;
   border-radius: 0.3125rem;
   color: black;
-  padding: 1rem .5rem;
-  transition: .4s;
+  padding: 1rem 0.5rem;
+  transition: 0.4s;
 }
 
 .details:hover {
