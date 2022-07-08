@@ -3,40 +3,42 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #121212;
+  background-color: var(--blured-black);
 }
 
 .navbar h2 a {
   display: flex;
   align-items: center;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 .navbar form {
   display: flex;
-  gap: .5rem;
+  gap: 0.5rem;
 }
 
 .navbar input {
-  padding: .2rem .8rem;
+  padding: 0.2rem 0.8rem;
   border-radius: 0.3125rem;
   border: none;
+  font-weight: bold;
+  background: var(--gainsboro);
 }
 
 .navbar button {
   display: flex;
   align-items: center;
-  background-color: #f7b354;
-  border: #f7b354;
+  background-color: var(--gainsboro);
+  border: none;
   border-radius: 0.3125rem;
-  color: black;
-  padding: .3rem;
+  color: var(--black);
+  padding: 0.3rem;
   font-size: 1.3rem;
-  transition: .4s;
+  transition: 0.4s;
   cursor: pointer;
 }
 
 .navbar button:hover {
   background-color: transparent;
-  color: #f7b354;
+  color: var(--ming);
 }

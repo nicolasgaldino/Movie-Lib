@@ -23,7 +23,7 @@ const Home = () => {
 
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>Melhores filmes</h2>
+      <h2 className={styles.title}>Melhores Filmes</h2>
       <div className={styles.moviesContainer}>
         {topMovies.length === 0 && <p>Carregando...</p>}
         {topMovies.length > 0 && topMovies.map((movie) => <MovieCard movie={movie} key={movie.id} />)}

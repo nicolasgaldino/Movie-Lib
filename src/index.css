@@ -1,10 +1,12 @@
 :root {
   --white: #ffffff;
   --black: #000000;
-  --dark-blue: #236ad6;
-  --light-blue : #2095f2;
-  --red: #d7415d;
-  --yellow : #ffd960;
+  --blured-black: rgba(0, 0, 0, 0.4);
+  --gainsboro: #d9d9d9;
+  --ming: #3c6e71;
+  --indigoDye: #284b63;
+  --jet: #353535;
+  --yellow: #fffd77;
 }
 
 * {
@@ -16,18 +18,19 @@
 }
 
 body {
-  background-color: var(--black);
+  background-color: var(--jet);
   color: var(--white);
+  cursor: default;
 }
 
 a {
   text-decoration: none;
-  color: var(--yellow);
-  transition: .5s;
+  color: var(--white);
+  transition: 0.5s;
 }
 
 a:hover {
-  color: var(--dark-blue);
+  color: var(--ming);
 }
 
 ::-webkit-scrollbar {
@@ -35,10 +38,10 @@ a:hover {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: var(--black);
+  background-color: var(--gainsboro);
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--yellow);
+  background-color: var(--ming);
   border-radius: 3.125rem;
 }

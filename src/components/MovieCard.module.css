@@ -1,17 +1,23 @@
 .movieCard {
   width: 30%;
-  color: white;
+  color: var(--white);
   margin-bottom: 2.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #111;
+  background-color: var(--blured-black);
   padding: 1rem;
   border-radius: 0.3125rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.movieCard:hover {
+  transform: scale(1.1);
 }
 
 .movieCard img {
   max-width: 100%;
+  border-radius: 0.3125rem;
 }
 
 .movieCard img,
@@ -21,20 +27,23 @@
 }
 
 .movieCard svg {
-  color: #f7d354;
+  color: var(--yellow);
 }
 
 .details {
   display: flex;
   justify-content: center;
-  background-color: #f7d354;
-  border: 0.125rem solid white;
+  background-color: var(--jet);
+  border: 0.125rem solid var(--white);
+  letter-spacing: 0.01rem;
+  text-transform: uppercase;
   border-radius: 0.3125rem;
-  color: black;
+  color: var(--gainsboro);
   padding: 1rem 0.5rem;
   transition: 0.4s;
 }
 
 .details:hover {
-  color: white;
+  background: transparent;
+  color: var(--white);
 }
