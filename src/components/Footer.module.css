@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--blured-black);
+}
+
+.footer h2 a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.socialFoot {
+  width: 25vw;
+  display: flex;
+  justify-content: space-between;
+}
