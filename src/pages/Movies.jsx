@@ -4,6 +4,7 @@ import { BsGraphUp, BsWallet2, BsHourglassSplit, BsFillFileEarmarkTextFill } fro
 import { FaStar } from 'react-icons/fa';
 import MovieCard from '../components/MovieCard';
 import styles from './Movies.module.css';
+import Loader from "../components/Loader";
 
 const moviesURL = import.meta.env.VITE_API;
 const apiKey = import.meta.env.VITE_API_KEY;
@@ -35,6 +36,7 @@ const Movies = () => {
   return (
     <>
       <div className={styles.moviePage}>
+        {!movie && <Loader />}
         {movie && (
           <>
             <div className={styles.movieCard}>

@@ -1,0 +1,30 @@
+@keyframes tick {
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.containerLoader {
+  position: relative;
+  width: 4.0625rem;
+  height: 4.0625rem;
+  border-radius: 50%;
+  border: 0.125rem solid var(--white);
+}
+
+.containerLoader::after {
+  content: "";
+  position: absolute;
+  bottom: 1.875rem;
+  left: 1.9375rem;
+  display: block;
+  transform-origin: 0% 100%;
+  width: 0.0625rem;
+  height: 1.5625rem;
+  background: var(--white);
+  animation: tick 1s infinite linear;
+}

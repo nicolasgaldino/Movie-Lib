@@ -1,5 +1,6 @@
 import React from 'react';
 import { useSearchParams } from 'react-router-dom';
+import Loader from '../components/Loader';
 import MovieCard from '../components/MovieCard';
 import styles from './MovieGrid.module.css';
 
@@ -30,7 +31,7 @@ const Search = () => {
         Resultados para: <span className={styles.queryText}>{query}</span>
       </h2>
       <div className={styles.moviesContainer}>
-        {movies.length === 0 && <p>Carregando...</p>}
+        {movies.length === 0 && <Loader />}
         {movies.length > 0 && movies.map((movie) => <MovieCard movie={movie} key={movie.id} />)}
       </div>
     </div>

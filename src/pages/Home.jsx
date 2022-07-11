@@ -1,4 +1,5 @@
 import React from 'react';
+import Loader from '../components/Loader';
 import MovieCard from '../components/MovieCard';
 import styles from './MovieGrid.module.css';
 
@@ -25,7 +26,7 @@ const Home = () => {
     <div className={styles.container}>
       <h2 className={styles.title}>Melhores Filmes</h2>
       <div className={styles.moviesContainer}>
-        {topMovies.length === 0 && <p>Carregando...</p>}
+        {topMovies.length === 0 && <Loader />}
         {topMovies.length > 0 && topMovies.map((movie) => <MovieCard movie={movie} key={movie.id} />)}
       </div>
     </div>
