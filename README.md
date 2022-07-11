@@ -1,4 +1,3 @@
-# Projeto em etapa de desenvolvimento
 # Movie-Lib
 
 Projeto feito utilizando: <br>
